@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-18T22:38:30.410Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="NeCgx1B-xieP5B3txuW_" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-18T23:56:42.223Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="rgZeuF6RkpKQXz_ayTbd" version="21.1.4" type="github" pages="2">
   <diagram id="OTWBPmGT2mkbnGXQPJGu" name="Page-1">
     <mxGraphModel dx="2284" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -25,8 +25,8 @@
             <mxPoint x="17" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="v2_8lzb0Q4B1R9M_pPQn-2" value="Chat Gpt Embedding Model" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="525" y="80" width="120" height="60" as="geometry" />
+        <mxCell id="v2_8lzb0Q4B1R9M_pPQn-2" value="OpenAI Embedding Model&lt;br&gt;(text-embedding-ada-002&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="510" y="70" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="v2_8lzb0Q4B1R9M_pPQn-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="f5BD6x5yxC-e47OayBs4-1" target="v2_8lzb0Q4B1R9M_pPQn-1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -108,6 +108,62 @@
         </mxCell>
         <mxCell id="f5BD6x5yxC-e47OayBs4-10" value="Application Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry y="20" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="6ukQmABIN2io6i7MJJ2X" name="Page-2">
+    <mxGraphModel dx="1434" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n2oKB4tU9eQ9gqRYAK6W-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="253" y="100" width="500" height="500" as="geometry" />
+        </mxCell>
+        <mxCell id="n2oKB4tU9eQ9gqRYAK6W-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;gradientColor=#ffd966;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="310" y="160" width="380" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="n2oKB4tU9eQ9gqRYAK6W-3" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="380" y="240" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="n2oKB4tU9eQ9gqRYAK6W-4" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Applications&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="457.5" y="120" width="85" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n2oKB4tU9eQ9gqRYAK6W-5" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;AI tools (Langchain/ ChatGPT plugin)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="373" y="200" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n2oKB4tU9eQ9gqRYAK6W-6" value="&lt;b&gt;OpenSearch&lt;br&gt;Vector DB&lt;/b&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fad9d5;strokeColor=#ae4132;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="394" y="310" width="78" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n2oKB4tU9eQ9gqRYAK6W-8" value="LLM" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="486" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n2oKB4tU9eQ9gqRYAK6W-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="n2oKB4tU9eQ9gqRYAK6W-9" target="n2oKB4tU9eQ9gqRYAK6W-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n2oKB4tU9eQ9gqRYAK6W-9" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;User&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="320" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CCv-_H_iDLUY_1PC4YO1-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Legends&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontSize=12;verticalAlign=top;fillColor=#f5f5f5;strokeColor=#666666;gradientColor=#b3b3b3;" vertex="1" parent="1">
+          <mxGeometry x="30" y="550" width="250" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="CCv-_H_iDLUY_1PC4YO1-2" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontSize=12;fillColor=#f8cecc;strokeColor=#b85450;gradientColor=#ea6b66;" vertex="1" parent="1">
+          <mxGeometry x="43" y="587" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CCv-_H_iDLUY_1PC4YO1-3" value="Core Component" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="83" y="582" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CCv-_H_iDLUY_1PC4YO1-4" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" vertex="1" parent="1">
+          <mxGeometry x="43" y="627" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CCv-_H_iDLUY_1PC4YO1-5" value="AI Tools Layer (Swappable)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="83" y="622" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CCv-_H_iDLUY_1PC4YO1-6" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=1 1;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;gradientColor=#97d077;" vertex="1" parent="1">
+          <mxGeometry x="43" y="667" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CCv-_H_iDLUY_1PC4YO1-7" value="Different Customer/Enterprise Applications" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;dashPattern=1 1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="83" y="662" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
