@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-12T07:05:05.700Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="pFqQf2CQsmkeWpxdJqm1" version="21.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-12T07:20:23.720Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="kIeyg9k5XS9C1QXKwJK_" version="21.1.9" type="github" pages="2">
   <diagram name="HLD for Efficient Filtering" id="fewRyJouiZ-n5GqvohV1">
-    <mxGraphModel dx="2284" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2284" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -190,6 +190,65 @@
         </mxCell>
         <mxCell id="J7_zZ_q4P6VXWAkWHej_-61" value="Changes in Older Components" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="454" y="585" width="180" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="v1FJ2opsqAbNe5-AVXR2" name="Architecture HLD">
+    <mxGraphModel dx="1434" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RzpBTZFtxhuImNjHKxhw-1" value="OpenSearch Index" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="200" y="100" width="430" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RzpBTZFtxhuImNjHKxhw-2" value="Lucene Index" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="200" y="240" width="430" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="RzpBTZFtxhuImNjHKxhw-3" value="Lucene Segment" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="200" y="430" width="430" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="RzpBTZFtxhuImNjHKxhw-4" value="OpenSearch Shard == Lucene Index" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="210" y="130" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RzpBTZFtxhuImNjHKxhw-6" value="OpenSearch Shard == Lucene Index" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="422" y="130" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RzpBTZFtxhuImNjHKxhw-7" value="Lucene Segments" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="315" y="270" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RzpBTZFtxhuImNjHKxhw-9" value="Lucene Segments" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="315" y="310" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RzpBTZFtxhuImNjHKxhw-10" value="Lucene Segments" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="315" y="350" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RzpBTZFtxhuImNjHKxhw-12" value=".frq" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="340" y="470" width="65" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RzpBTZFtxhuImNjHKxhw-13" value=".hnsw file" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="440" y="470" width="65" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RzpBTZFtxhuImNjHKxhw-14" value="...and many more filed" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="540" y="470" width="65" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RzpBTZFtxhuImNjHKxhw-15" value=".fdt" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="240" y="470" width="65" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qH_x78u17u1Xfr5f-L72-1" value="Legends" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="680" y="240" width="254" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qH_x78u17u1Xfr5f-L72-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="694" y="270" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qH_x78u17u1Xfr5f-L72-3" value="No Changes&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="744" y="265" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qH_x78u17u1Xfr5f-L72-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="694" y="300" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="qH_x78u17u1Xfr5f-L72-9" value="K-NN HNSW Algo specific file" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="744" y="295" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
