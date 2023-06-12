@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-12T07:20:23.720Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="kIeyg9k5XS9C1QXKwJK_" version="21.1.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-06-12T07:23:09.622Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="RULrsKWk9mmdLbitPMvO" version="21.1.9" type="github" pages="2">
   <diagram name="HLD for Efficient Filtering" id="fewRyJouiZ-n5GqvohV1">
     <mxGraphModel dx="2284" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -224,16 +224,16 @@
           <mxGeometry x="315" y="350" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RzpBTZFtxhuImNjHKxhw-12" value=".frq" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="340" y="470" width="65" height="80" as="geometry" />
+          <mxGeometry x="330" y="470" width="75" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="RzpBTZFtxhuImNjHKxhw-13" value=".hnsw file" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="440" y="470" width="65" height="80" as="geometry" />
+        <mxCell id="RzpBTZFtxhuImNjHKxhw-13" value=".&amp;lt;k-nnEngine&amp;gt; file" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffcd28;gradientColor=#ffa500;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="420" y="470" width="85" height="90" as="geometry" />
         </mxCell>
         <mxCell id="RzpBTZFtxhuImNjHKxhw-14" value="...and many more filed" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="540" y="470" width="65" height="80" as="geometry" />
+          <mxGeometry x="530" y="470" width="75" height="90" as="geometry" />
         </mxCell>
         <mxCell id="RzpBTZFtxhuImNjHKxhw-15" value=".fdt" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="240" y="470" width="65" height="80" as="geometry" />
+          <mxGeometry x="230" y="470" width="75" height="90" as="geometry" />
         </mxCell>
         <mxCell id="qH_x78u17u1Xfr5f-L72-1" value="Legends" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="680" y="240" width="254" height="100" as="geometry" />
