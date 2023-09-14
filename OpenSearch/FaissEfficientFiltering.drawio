@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-07T21:56:06.463Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="46dUWldHqr57T4X05Vmz" version="21.7.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-09-14T19:27:39.968Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="0T7Sf6u-u2T6EYqEC_2x" version="21.7.2" type="github" pages="3">
   <diagram name="HLD for Efficient Filtering" id="fewRyJouiZ-n5GqvohV1">
-    <mxGraphModel dx="2924" dy="1126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2443" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -226,7 +226,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="v1FJ2opsqAbNe5-AVXR2" name="Architecture HLD">
-    <mxGraphModel dx="2074" dy="1126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -284,8 +284,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="uHRZizEiDvDGspDT3_CZ" name="Pre-filter Algorithm">
-    <mxGraphModel dx="2074" dy="1126" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+  <diagram id="uHRZizEiDvDGspDT3_CZ" name="Efficient Filter Algorithm">
+    <mxGraphModel dx="1434" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -312,10 +312,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="SkoKaosBteE8ehi_c4XM-2" value="P &amp;lt;= K" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="325" y="280" width="100" height="90" as="geometry" />
+          <mxGeometry x="325" y="240" width="100" height="90" as="geometry" />
         </mxCell>
         <mxCell id="SkoKaosBteE8ehi_c4XM-3" value="End" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="500" y="1320" width="120" height="80" as="geometry" />
+          <mxGeometry x="510" y="1030" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="T-j45mwcTdiqUhm8q4lE-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SkoKaosBteE8ehi_c4XM-4" target="T-j45mwcTdiqUhm8q4lE-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -326,13 +326,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="SkoKaosBteE8ehi_c4XM-4" value="Perform Approximate Nearest Neighbor Search over N documents, skipping adding documents not in P&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="300" y="910" width="150" height="80" as="geometry" />
+          <mxGeometry x="300" y="740" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="T-j45mwcTdiqUhm8q4lE-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="SkoKaosBteE8ehi_c4XM-5" target="SkoKaosBteE8ehi_c4XM-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="SkoKaosBteE8ehi_c4XM-5" value="Perform Exact Search on P documents" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="670" y="1105" width="150" height="80" as="geometry" />
+          <mxGeometry x="660" y="915" width="150" height="80" as="geometry" />
         </mxCell>
         <mxCell id="T-j45mwcTdiqUhm8q4lE-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="T-j45mwcTdiqUhm8q4lE-2" target="SkoKaosBteE8ehi_c4XM-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -351,7 +351,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="T-j45mwcTdiqUhm8q4lE-2" value="R &amp;lt; K and P &amp;gt;= K" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="295" y="1070" width="160" height="150" as="geometry" />
+          <mxGeometry x="295" y="880" width="160" height="150" as="geometry" />
         </mxCell>
         <mxCell id="T-j45mwcTdiqUhm8q4lE-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="T-j45mwcTdiqUhm8q4lE-10" target="T-j45mwcTdiqUhm8q4lE-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -370,7 +370,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="T-j45mwcTdiqUhm8q4lE-10" value="is FT set?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="310" y="440" width="130" height="110" as="geometry" />
+          <mxGeometry x="310" y="380" width="130" height="110" as="geometry" />
         </mxCell>
         <mxCell id="T-j45mwcTdiqUhm8q4lE-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="T-j45mwcTdiqUhm8q4lE-17" target="SkoKaosBteE8ehi_c4XM-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -389,7 +389,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="T-j45mwcTdiqUhm8q4lE-17" value="P &amp;lt;= FT" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="310" y="630" width="130" height="110" as="geometry" />
+          <mxGeometry x="310" y="550" width="130" height="110" as="geometry" />
         </mxCell>
         <mxCell id="T-j45mwcTdiqUhm8q4lE-35" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;jumpStyle=arc;" parent="1" source="T-j45mwcTdiqUhm8q4lE-23" target="SkoKaosBteE8ehi_c4XM-5" edge="1">
           <mxGeometry x="-0.1351" relative="1" as="geometry">
@@ -400,7 +400,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T-j45mwcTdiqUhm8q4lE-23" value="P * Dimension &amp;lt;= MDC" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="110" y="750" width="180" height="140" as="geometry" />
+          <mxGeometry x="120" y="620" width="180" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
